@@ -32,7 +32,7 @@
         android:layout_marginStart="48dp"
         android:layout_marginTop="44dp"
         android:text="StackSmasher"
-        android:textSize="32"
+        android:textSize="32sp"
         app:layout_constraintStart_toEndOf="@+id/logo"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
 
@@ -137,8 +137,16 @@
 
     <Button
         android:id="@+id/button"
-        android:layout_width="wrap_content"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
-        tools:layout_editor_absoluteX="357dp"
-        tools:layout_editor_absoluteY="961dp" />
+        android:layout_marginTop="32dp"
+        android:background="#C6512F"
+        android:text="Customise Dashboard"
+        android:textColor="@android:color/white"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView15" />
 </androidx.constraintlayout.widget.ConstraintLayout>
