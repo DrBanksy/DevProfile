@@ -24,7 +24,7 @@
         android:layout_marginTop="120dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/devslopesprofilelogo" />
+        app:srcCompat="@drawable/logoactual" />
 
     <TextView
         android:id="@+id/devslopesText"
